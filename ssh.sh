@@ -101,8 +101,8 @@ systemctl enable dropbear
 systemctl restart dropbear
 systemctl enable stunnel4
 systemctl restart stunnel4
-sudo systemctl enable udpgw
-sudo systemctl start udpgw
+systemctl enable udpgw
+systemctl start udpgw
 
 #adding default user and password
 
