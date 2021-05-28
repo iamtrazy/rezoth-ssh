@@ -1,8 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
 #installing pre-requirements and adding port rules to ubuntu firewall
 
-apt update && apt upgrade
 apt-get install -y dropbear && apt-get install -y stunnel && apt-get install -y cmake
 
 ufw allow 443/tcp
@@ -37,7 +36,7 @@ cat << EOF > /etc/banner
 <font>┊✧ <font color="#8A2BE2">&nbsp;NO CARDING !!!</font></font><br>
 <font>✦ <font color="#FF7F50">&nbsp;NO TORRENT !!!</font></font><br>
 <font>.   ✫   .  ˚  ✦  · </font><br>
-<font> .  +  · · <font color="#33a6ff"><i>&nbsp;Premium SSH Accounts for Everyone</i></font></font><br>
+<font> .  +  · · <font color="#33a6ff"></font></font><br>
 <font>    ✹   . <font color="#008080">&nbsp;Your privacy is our number one priority</font></font><br>
 <font>✦  · </font><br>
 <b>&nbsp;Powered by <font color="#ff5079">Rezoth™</font></b><br>
@@ -101,8 +100,8 @@ systemctl enable dropbear
 systemctl restart dropbear
 systemctl enable stunnel4
 systemctl restart stunnel4
-systemctl enable udpgw
-systemctl start udpgw
+sudo systemctl enable udpgw
+sudo systemctl start udpgw
 
 #adding default user and password
 
