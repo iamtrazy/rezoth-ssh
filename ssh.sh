@@ -9,7 +9,6 @@ apt-get install -y dropbear && apt-get install -y stunnel && apt-get install -y 
 ufw allow 443/tcp
 ufw allow 80/tcp
 ufw allow 110/tcp
-ufw allow 443/tcp
 ufw allow 7300/tcp
 ufw allow 7300/udp
 
