@@ -115,3 +115,4 @@ passwd $username << EOF
 $password
 $password
 EOF
+clear
