@@ -2,6 +2,8 @@
 
 #installing pre-requirements and adding port rules to ubuntu firewall
 
+apt-get update -y && apt-get upgrade -y
+
 apt-get install -y dropbear && apt-get install -y stunnel && apt-get install -y cmake
 
 ufw allow 443/tcp
