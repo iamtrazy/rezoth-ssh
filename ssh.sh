@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 #installing pre-requirements and adding port rules to ubuntu firewall
 
