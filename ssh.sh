@@ -11,7 +11,6 @@ ufw allow 22/tcp
 ufw allow 80/tcp
 ufw allow 110/tcp
 ufw allow 8080/tcp
-ufw allow 3128/tcp
 ufw allow 7300/tcp
 ufw allow 7300/udp
 
