@@ -4,13 +4,21 @@
 
 apt-get update -y && apt-get upgrade -y
 
-apt-get install -y dropbear && apt-get install -y stunnel && apt-get install -y cmake
+apt-get install -y dropbear && apt-get install -y stunnel4 && apt-get install -y squid && apt-get install -y cmake
 
 ufw allow 443/tcp
+ufw allow 22/tcp
 ufw allow 80/tcp
 ufw allow 110/tcp
+ufw allow 8080/tcp
+ufw allow 3128/tcp
 ufw allow 7300/tcp
 ufw allow 7300/udp
+
+#configuring openssh
+
+sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
+sed -i 's/#Banner none/Banner \/etc\/banner/' /etc/ssh/sshd_config
 
 #configuring dropbear
 
@@ -73,6 +81,38 @@ chmod 644 /etc/stunnel/stunnel.pem
 
 sed -i 's/ENABLED=0/ENABLED=1/' /etc/default/stunnel4
 
+# Configuring squid
+
+cat << EOF > /etc/squid/squid.conf
+acl localhost src 127.0.0.1/32 ::1
+acl to_localhost dst 127.0.0.0/8 0.0.0.0/32 ::1
+acl SSL_ports port 443
+acl Safe_ports port 80
+acl Safe_ports port 21
+acl Safe_ports port 443
+acl Safe_ports port 70
+acl Safe_ports port 210
+acl Safe_ports port 1025-65535
+acl Safe_ports port 280
+acl Safe_ports port 488
+acl Safe_ports port 591
+acl Safe_ports port 777
+acl CONNECT method CONNECT
+acl SSH dst ${pubip}
+http_access allow SSH
+http_access allow manager localhost
+http_access deny manager
+http_access allow localhost
+http_access deny all
+http_port 8080
+http_port 3128
+coredump_dir /var/spool/squid
+refresh_pattern ^ftp: 1440 20% 10080
+refresh_pattern ^gopher: 1440 0% 1440
+refresh_pattern -i (/cgi-bin/|\?) 0 0% 0
+refresh_pattern . 0 20% 4320
+EOF
+
 #build and install badvpn-udpgw
 
 git clone https://github.com/ambrop72/badvpn
@@ -102,6 +142,8 @@ systemctl enable dropbear
 systemctl restart dropbear
 systemctl enable stunnel4
 systemctl restart stunnel4
+systemctl enable squid
+systemctl restart squid
 sudo systemctl enable udpgw
 sudo systemctl restart udpgw
 
