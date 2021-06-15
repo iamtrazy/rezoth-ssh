@@ -117,6 +117,8 @@ EOF
 #enabling and starting all services
 
 sudo useradd -m udpgw
+
+systemctl restart sshd
 systemctl enable dropbear
 systemctl restart dropbear
 systemctl enable stunnel4
