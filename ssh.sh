@@ -16,6 +16,7 @@ ufw allow 7300/udp
 
 #configuring openssh
 
+sed -i 's/#Port 22/Port 22/' /etc/ssh/sshd_config
 sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
 sed -i 's/#Banner none/Banner \/etc\/banner/' /etc/ssh/sshd_config
 
@@ -65,6 +66,10 @@ TIMEOUTclose = 0
 [dropbear]
 accept = 443
 connect = 127.0.0.1:110
+
+[openssh]
+accept = 444
+connect = 127.0.0.1:22
 EOF
 
 #Genarating a self signed certificate for stunnel
