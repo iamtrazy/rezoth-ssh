@@ -2,7 +2,7 @@
 
 #installing pre-requirements and adding port rules to ubuntu firewall
 
-apt-get update -y && apt-get upgrade -y
+apt update -y && apt upgrade -y
 
 apt-get install -y dropbear && apt-get install -y stunnel4 && apt-get install -y squid && apt-get install -y cmake
 
