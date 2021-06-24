@@ -129,15 +129,11 @@ sudo systemctl enable udpgw
 sudo systemctl restart udpgw
 
 #adding default user and password
-
+echo /bin/false >> /etc/shells
 clear
-echo -n "Enter the default username : "
-read username
-echo -n "Enter the default password (please use a strong password) : "
-read password
-useradd $username
-passwd $username << EOF
-$password
-$password
-EOF
+echo -ne "Enter the default username : "; read username
+echo -ne "Enter the default password (please use a strong password) : "; read password
+echo -ne "Enter  No. of Days till expiration : ";read nod
+exd=$(date +%F  -d "$nod days")
+useradd -e $exd -M -N -s /bin/false $username && echo "$username:$password" | chpasswd && echo User $username added to the system successfully press enter key to exit from the script; read || echo Failed to add user $username please try again.
 clear
