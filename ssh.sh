@@ -134,6 +134,6 @@ clear
 echo -ne "Enter the default username : "; read username
 echo -ne "Enter the default password (please use a strong password) : "; read password
 echo -ne "Enter  No. of Days till expiration : ";read nod
-exd=$(date +%F  -d "$nod days")
+exd=$(date +%F  -d "+$nod days")
 useradd -e $exd -M -N -s /bin/false $username && echo "$username:$password" | chpasswd && echo Default user $username added to the system successfully press enter key to exit from the script;read || echo Failed to add user $username please try again.
 clear
