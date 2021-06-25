@@ -22,12 +22,12 @@ echo -ne "Enter No. of Days till expiration : ";read nod
 exd=$(date +%F  -d "$nod days")
 useradd -e $exd -M -N -s /bin/false $username && echo "$username:$password" | chpasswd &&
 clear &&
-echo -e "${GREEN}Default User Details" &&
-echo -e "${RED}--------------------" &&
+echo -e "${GREEN}User Detail" &&
+echo -e "${RED}-----------" &&
 echo -e "${GREEN}\nUsername :${YELLOW} $username" &&
 echo -e "${GREEN}\nPassword :${YELLOW} $password" &&
 echo -e "${GREEN}\nExpire Date :${YELLOW} $exd ${ENDCOLOR}" ||
-echo -e "${RED}\nFailed to add default user $username please try again.${ENDCOLOR}"
+echo -e "${RED}\nFailed to add user $username please try again.${ENDCOLOR}"
 
 #return to panel
 
