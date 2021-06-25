@@ -1,5 +1,8 @@
 # Rezoth™|SSH-SCRIPT|
 
+* update 25-06-2021
+* added loading spinner and font colors
+* default user only have access to tunnelling (shell access disallowed)
 * Panel functions are still testing .
 
 
