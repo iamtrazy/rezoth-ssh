@@ -4,6 +4,7 @@
 
 RED="\e[31m"
 GREEN="\e[32m"
+YELLOW="\e[33m"
 ENDCOLOR="\e[0m"
 
 #installing pre-requirements and adding port rules to ubuntu firewall
