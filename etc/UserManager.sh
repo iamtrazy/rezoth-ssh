@@ -31,4 +31,4 @@ echo -e "${RED}\nFailed to add user $username please try again.${ENDCOLOR}"
 
 #return to panel
 
-echo -e "\nPress Enter Key to return to main menu"; read
+echo -e "\nPress Enter key to return to main menu"; read
