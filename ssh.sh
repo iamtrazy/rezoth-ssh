@@ -8,13 +8,17 @@ YELLOW="\e[33m"
 BLUE="\e[34m"
 ENDCOLOR="\e[0m"
 
+#root check
 
+if ! [ $(id -u) = 0 ]; then
+   echo -e "${RED}Plese run the script with root privilages!${ENDCOLOR}"
+   exit 1
+fi
 
 spinner()
 {
     #Loading spinner
-	
-	local pid=$!
+    local pid=$!
     local delay=0.75
     local spinstr='|/-\'
     while [ "$(ps a | awk '{print $1}' | grep $pid)" ]; do
@@ -26,14 +30,11 @@ spinner()
     done
     printf "    \b\b\b\b"
 }
-
-
-
 pre_req()
 {
         #installing pre-requirements and adding port rules to ubuntu firewall
 		
-		apt update -y && apt upgrade -y
+	apt update -y && apt upgrade -y
 
         apt-get install -y dropbear && apt-get install -y stunnel4 && apt-get install -y squid && apt-get install -y cmake
 
