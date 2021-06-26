@@ -189,7 +189,7 @@ echo -ne "\tdone"
 echo -e "${ENDCOLOR}"
 
 #configure user shell to /bin/false
-echo /bin/false >> /etc/shells >/dev/null 2>&1
+echo /bin/false >> /etc/shells
 clear
 
 #Adding the default user
