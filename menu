@@ -26,7 +26,7 @@ echo -ne "${GREEN}\nSelect Operation : ${ENDCOLOR}" ;read n
 case $n in
   1) /etc/rezoth-ssh/UserManager.sh;;
   2) /etc/rezoth-ssh/ListUsers.sh;;
-  3) /etc/rezoth-ssh/ChangeUsers.sh;;
+  3) /etc/rezoth-ssh/ChangeUser.sh;;
   4) /etc/rezoth-ssh/DelUser.sh;;
   5) clear;exit;;
   *) echo -e "${RED}\nInvalid Option. Press Enter to return back to the menu${ENDCOLOR}";read && menu;;
