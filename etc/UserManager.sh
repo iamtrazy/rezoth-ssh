@@ -1,11 +1,17 @@
 #!/bin/bash
 
+#font colors
+
 RED="\e[31m"
 GREEN="\e[32m"
 YELLOW="\e[33m"
 ENDCOLOR="\e[0m"
 
-echo -ne "Enter the username : "; read username
+clear
+
+#add users
+
+echo -ne "${YELLOW}Enter the username : "; read username
 while true; do
     read -p "Do you want to genarate a random password ? (Y/N) " yn
     case $yn in
@@ -25,4 +31,7 @@ echo -e "${GREEN}\nPassword :${YELLOW} $password" &&
 echo -e "${GREEN}\nExpire Date :${YELLOW} $exd ${ENDCOLOR}" ||
 echo -e "${RED}\nFailed to add user $username please try again.${ENDCOLOR}"
 
+#return to panel
+
 echo -e "\nPress Enter key to return to main menu"; read
+menu
