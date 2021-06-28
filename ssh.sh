@@ -158,7 +158,7 @@ fun_service_start()
 {
 #enabling and starting all services
 
-sudo useradd -m udpgw
+useradd -m udpgw
 
 systemctl restart sshd
 systemctl enable dropbear
