@@ -1,1 +1,33 @@
+#!/bin/bash
 
+RED="\e[31m"
+GREEN="\e[32m"
+YELLOW="\e[33m"
+BLUE="\e[34m"
+CYAN="\e[36m"
+ENDCOLOR="\e[0m"
+
+if ! [ $(id -u) = 0 ]; then
+   echo -e "${RED}Plese run the command with root privilages!${ENDCOLOR}"
+   exit 1
+fi
+
+clear
+echo -e "${YELLOW}************ SSH PANEL ************"
+echo -e "${RED}-----------------------------------\n"
+echo -e "${CYAN}  1)Add new users"
+echo -e "  2)View All users"
+echo -e "  3)Edit an existing user"
+echo -e "  4)Delete a user"
+echo -e "  5)Exit"
+
+echo -ne "${GREEN}\nSelect Operation : ${ENDCOLOR}" ;read n
+
+case $n in
+  1) /etc/rezoth-ssh/UserManager.sh;;
+  2) /etc/rezoth-ssh/ListUsers.sh;;
+  3) /etc/rezoth-ssh/ChangeUsers.sh;;
+  4) /etc/rezoth-ssh/DelUser.sh;;
+  5) clear;exit;;
+  *) echo -e "${RED}\nInvalid Option. Press Enter to return back to the menu${ENDCOLOR}";read && menu;;
+esac
