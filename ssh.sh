@@ -147,7 +147,7 @@ Description=UDP forwarding for badvpn-tun2socks
 After=nss-lookup.target
 
 [Service]
-ExecStart=/usr/local/bin/badvpn-udpgw --loglevel none --listen-addr 127.0.0.1:7300
+ExecStart=/usr/local/bin/badvpn-udpgw --listen-addr 127.0.0.1:7300 --max-clients 10000 --max-connections-for-client 10 --client-socket-sndbuf 10000
 User=udpgw
 
 [Install]
