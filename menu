@@ -1,0 +1,63 @@
+#!/bin/bash
+
+RED="\e[31m"
+GREEN="\e[32m"
+YELLOW="\e[33m"
+BLUE="\e[34m"
+CYAN="\e[36m"
+ENDCOLOR="\e[0m"
+
+pub_ip=$(wget -qO- https://ipecho.net/plain ; echo)
+
+old_db_port=$(grep "DROPBEAR_PORT=" /etc/default/dropbear | sed 's/=/= /'  | awk '{print$2}')
+
+old_db_ssl=$(grep "accept =" /etc/stunnel/stunnel.conf | sed ':a;N;$!ba;s/\n/ /g' | sed 's/accept =//g' | awk '{print$1}')
+
+old_op_ssl=$(grep "accept =" /etc/stunnel/stunnel.conf | sed ':a;N;$!ba;s/\n/ /g' | sed 's/accept =//g' | awk '{print$2}')
+
+old_squid_port=$(sed /^#/d /etc/squid/squid.conf | grep "http_port" | awk '{print$2}')
+
+old_udpgw_port=$(cat /etc/systemd/system/udpgw.service | sed 's/ /\n/g'  | grep "127.0.0.1:" | sed 's/:/ /' | awk '{print$2}')
+
+if ! [ $(id -u) = 0 ]; then
+   echo -e "${RED}Plese run the command with root privilages!${ENDCOLOR}"
+   exit 1
+fi
+
+clear
+echo -e "${YELLOW}************ SSH PANEL ************"
+echo -e "${RED}-----------------------------------\n"
+echo -e "${YELLOW}-------- Server Details -----------\n"
+echo -e "${GREEN}IP : $pub_ip"
+echo -e "Dropbear port : $old_db_port"
+echo -e "Dropbear + SSL port : $old_db_ssl"
+echo -e "Openssh +  SSL port : $old_op_ssl"
+echo -e "Squid port : $old_squid_port"
+echo -e "BadVPN UDP Gateway port : $old_udpgw_port\n"
+echo -e "${RED}-----------------------------------\n"
+echo -e "${CYAN}  1)Add new users"
+echo -e "  2)View All users"
+echo -e "  3)Edit an existing user"
+echo -e "  4)Delete a user"
+echo -e "  5)Change Ports"
+echo -e "  6)Edit SSH Banner"
+echo -e "  7)Server Information"
+echo -e "  8)Server Speedtest"
+echo -e "  9)Remove Script"
+echo -e "  10)Exit"
+
+echo -ne "${GREEN}\nSelect Operation : ${ENDCOLOR}" ;read n
+
+case $n in
+  1) /etc/rezoth-ssh/UserManager.sh;;
+  2) /etc/rezoth-ssh/ListUsers.sh;;
+  3) /etc/rezoth-ssh/ChangeUser.sh;;
+  4) /etc/rezoth-ssh/DelUser.sh;;
+  5) /etc/rezoth-ssh/ChangePorts.sh;;
+  6) /etc/rezoth-ssh/Banner.sh;;
+  7) clear && screenfetch -p || echo -e "${RED}Screenfetch not installed. please install${ENDCOLOR}"; echo -e "\nPress Enter to return back to the menu";read;menu;;  
+  8) clear && python3 /etc/rezoth-ssh/speedtest-cli || echo -e "${RED}Python3 or speedtest-cli not installed. please install${ENDCOLOR}"; echo -e "\nPress Enter to return back to the menu";read;menu;;
+  9) /etc/rezoth-ssh/RemoveScript.sh;;
+  10) clear;exit;;
+  *) echo -e "${RED}\nInvalid Option. Press Enter to return back to the menu${ENDCOLOR}";read && menu;;
+esac
