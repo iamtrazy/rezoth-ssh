@@ -38,6 +38,7 @@ rm -rf /etc/squid
 rm -f /usr/local/bin/badvpn-udpgw
 systemctl stop udpgw
 systemctl disable udpgw
+userdel udpgw
 rm -f /etc/systemd/system/udpgw.service
 systemctl daemon-reload
 systemctl restart sshd
