@@ -29,7 +29,7 @@ Manage Script
 ------------------------------------------
 ## :book: Installation
 
-sudo git clone https://github.com/iamtrazy/rezoth-ssh && cd rezoth-ssh && sudo chmod +x ssh.sh  && sudo ./ssh.sh
+sudo wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/ssh.sh && sudo chmod +x ssh.sh  && sudo ./ssh.sh
 
 UserAdd කරද්දි strong password එකක් use කරන්න
 
