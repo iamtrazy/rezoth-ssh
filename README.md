@@ -1,9 +1,11 @@
 # Rezoth™|SSH-SCRIPT|
 
+# update 01-07-2021
+* added panel
+
 # update 25-06-2021
 * added loading spinner and font colors
 * default user only have access to tunnelling (shell access disallowed)
-* Panel functions are still testing .
 
 
 ![logo](https://telegra.ph/file/4e19dd26926234ca32b68.jpg)
