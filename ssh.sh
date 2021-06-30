@@ -6,6 +6,7 @@ RED="\e[31m"
 GREEN="\e[32m"
 YELLOW="\e[33m"
 BLUE="\e[34m"
+CYAN="\e[36m"
 ENDCOLOR="\e[0m"
 
 #root check
@@ -36,9 +37,10 @@ pre_req()
 		
 	apt update -y && apt upgrade -y
 
-        apt-get install -y dropbear && apt-get install -y stunnel4 && apt-get install -y squid && apt-get install -y cmake
+        apt-get install -y dropbear && apt-get install -y stunnel4 && apt-get install -y squid && apt-get install -y cmake && apt-get install -y python3 && apt-get install -y screenfetch
 
         ufw allow 443/tcp
+	ufw allow 444/tcp
         ufw allow 22/tcp
         ufw allow 80/tcp
         ufw allow 110/tcp
@@ -154,6 +156,37 @@ User=udpgw
 WantedBy=multi-user.target
 EOF
 }
+fun_panel()
+{
+mkdir /etc/rezoth-ssh
+wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/ChangeUser.sh
+wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/ChangePorts.sh
+wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/UserManager.sh
+wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/Banner.sh
+wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/DelUser.sh
+wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/ListUsers.sh
+wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/RemoveScript.sh
+wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
+wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/menu
+mv ChangeUser.sh /etc/rezoth-ssh/ChangeUser.sh
+mv ChangePorts.sh /etc/rezoth-ssh/ChangePorts.sh
+mv UserManager.sh /etc/rezoth-ssh/UserManager.sh
+mv Banner.sh /etc/rezoth-ssh/Banner.sh
+mv DelUser.sh /etc/rezoth-ssh/DelUser.sh
+mv ListUsers.sh /etc/rezoth-ssh/ListUsers.sh
+mv RemoveScript.sh /etc/rezoth-ssh/RemoveScript.sh
+mv speedtest-cli /etc/rezoth-ssh/speedtest-cli
+mv menu /usr/local/bin/menu
+chmod +x /etc/rezoth-ssh/ChangeUser.sh
+chmod +x /etc/rezoth-ssh/ChangePorts.sh
+chmod +x /etc/rezoth-ssh/UserManager.sh
+chmod +x /etc/rezoth-ssh/Banner.sh
+chmod +x /etc/rezoth-ssh/DelUser.sh
+chmod +x /etc/rezoth-ssh/ListUsers.sh
+chmod +x /etc/rezoth-ssh/RemoveScript.sh
+chmod +x /etc/rezoth-ssh/speedtest-cli
+chmod +x /usr/local/bin/menu
+}
 fun_service_start()
 {
 #enabling and starting all services
@@ -180,6 +213,10 @@ spinner
 echo -ne "\tdone"
 echo -ne "\n${YELLOW}Compiling and installing Badvpn UDP Gateway ............."
 fun_udpgw >/dev/null 2>&1 &
+spinner
+echo -ne "\tdone"
+echo -ne "\n${CYAN}Installing Panel ............."
+fun_panel >/dev/null 2>&1 &
 spinner
 echo -ne "\tdone"
 echo -ne "\n${RED}Starting All the services ............."
@@ -214,4 +251,5 @@ echo -e "${GREEN}\nExpire Date :${YELLOW} $exd ${ENDCOLOR}" ||
 echo -e "${RED}\nFailed to add default user $username please try again.${ENDCOLOR}"
 
 #exit script
+echo -e "\n${CYAN}Script installed. You can access the panel using 'menu' command. ${ENDCOLOR}\n"
 echo -e "\nPress Enter key to exit"; read
