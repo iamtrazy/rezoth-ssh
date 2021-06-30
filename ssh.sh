@@ -9,6 +9,8 @@ BLUE="\e[34m"
 CYAN="\e[36m"
 ENDCOLOR="\e[0m"
 
+clear
+
 #root check
 
 if ! [ $(id -u) = 0 ]; then
