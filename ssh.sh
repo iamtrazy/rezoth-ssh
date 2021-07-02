@@ -104,11 +104,11 @@ TIMEOUTclose = 0
 
 [dropbear]
 accept = 443
-connect = 127.0.0.1:110
+connect = 110
 
 [openssh]
 accept = 444
-connect = 127.0.0.1:22
+connect = 22
 EOF
 
 #Genarating a self signed certificate for stunnel
