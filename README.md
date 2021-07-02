@@ -43,7 +43,7 @@ _- UDPGW Port  =  7300_<br>
 
 #### :octocat: Credits
 ----------------------------------------------------
-_ 1)Team Rezoth - Contributor_<br>
+ _1)Team Rezoth - Contributor_<br>
  _2)@iamtrazy_
 
 ----------------------------------------------------
