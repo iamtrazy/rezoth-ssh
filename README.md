@@ -1,9 +1,9 @@
 <h1> ⭕ Rezoth™ - SSH-SCRIPT ⭕<b> </h1>
 
-<h5># 01-07-2021 UPDATE</h5>
+<h5># 01-07-2021 UPDATE ☑️</h5>
   <h6><b>   - 01-07-2021 </b></h6>
   <h6>   - Added a New Panel<h6>
-<h5># 25-06-2021 UPDATE</h5>
+<h5># 25-06-2021 UPDATE ☑️</h5>
     <h6>   - Added Loading Spinner and Added Font Colors</h6>
     <h6>   - Default User Only Have Access to Tunnel.. (shell access disallowed)</h6>
 
