@@ -34,11 +34,11 @@ _1)Android User කෙනෙක්නම් Httpinjector Or Sockhttp Use කර�
 _2)Windows User කෙනෙක්නම් SVI Injector හො Http Proxy injector Software එක Download කරගන්න_
 
 _- Openssh Port = 22_<br>
-_* Dropbear port   =  80 | 110_<br>
-_* SSL + Dropbear Port  =  443_<br>
-_* SSL + Openssh Port  =  444_<br>
-_* Squid Proxy Port  =  8080 (squid වැඩ කරන්න පෙලෝඩ් එකේ connect request එකක් තියෙන්න ඕනේ)_<br>
-_* UDPGW Port  =  7300_<br>
+_- Dropbear port   =  80 | 110_<br>
+_- SSL + Dropbear Port  =  443_<br>
+_- SSL + Openssh Port  =  444_<br>
+_- Squid Proxy Port  =  8080 (squid වැඩ කරන්න පෙලෝඩ් එකේ connect request එකක් තියෙන්න ඕනේ)_<br>
+_- UDPGW Port  =  7300_<br>
 
 
 #### :octocat: Credits
