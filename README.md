@@ -8,8 +8,7 @@
     <h6>   - Default User Only Have Access to Tunnel.. (shell access disallowed)</h6>
 
 
-<img  style="float:left;" height="200px" width="200px" src="https://telegra.ph/file/4e19dd26926234ca32b68.jpg"/>
-    <p>SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network. In addition to providing secure network services, SSH refers to the suite of utilities that implement the SSH protocol.</p>
+<img  style="float:left;" height="200px" width="200px" src="https://telegra.ph/file/4e19dd26926234ca32b68.jpg"/><p>SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network. In addition to providing secure network services, SSH refers to the suite of utilities that implement the SSH protocol.</p>
 
 
 Rezoth™ - SSH-Script එක Use කරල ඔයාට පහසුවෙන් ඔයාගෙ server එක ටනලින් වලට හදාගන්න පුලුවන් මෙකෙ ඔක්කොම Ports Auto Open වෙන නිසා ඔයාලට තවත් ලේසී..
