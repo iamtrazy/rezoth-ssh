@@ -10,16 +10,16 @@
     
 Rezoth™ - SSH-Script එක Use කරල ඔයාට පහසුවෙන් ඔයාගෙ server එක ටනලින් වලට හදාගන්න පුලුවන් මෙකෙ ඔක්කොම Ports Auto Open වෙන නිසා ඔයාලට තවත් ලේසී..
 
-~ Manage Script
+## ~ Manage Script
 
-## :book: Requeriment
+#### :book: Requeriment
 
 * Ubuntu 18.04  Os එක සහිත Vps එකක් [Recommended]
 * ඔයාලට පුලුවන් මෙක Ubuntu 20.04 0s Vps එකකට Use කරල Test කරන්නත් 
 * හැබැයි අපි අනුමත කරන්නෙ Ubuntu 18.04 Os එක
 
 ------------------------------------------
-## :book: Installation
+#### :book: Installation
 
 sudo wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/ssh.sh && sudo chmod +x ssh.sh  && sudo ./ssh.sh
 
@@ -27,7 +27,7 @@ UserAdd කරද්දි strong password එකක් use කරන්න
 
 ------------------------------------------
 
-## :book: How To Connect
+#### :book: How To Connect
 
 1)Android User කෙනෙක්නම් Httpinjector | Sockhttp | 
 
@@ -47,7 +47,7 @@ UserAdd කරද්දි strong password එකක් use කරන්න
 * UDPGW Port  =  7300
 
 
-## :octocat: Credits
+#### :octocat: Credits
 ----------------------------------------------------
   1)Team Rezoth - Contributor
 
