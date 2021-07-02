@@ -1,14 +1,14 @@
-# Rezoth™|SSH-SCRIPT|
+<h1> ⭕ Rezoth™ - SSH-SCRIPT ⭕<b> </h1>
 
-# update 01-07-2021
-* added panel
+<h5># 01-07-2021 UPDATE</h5>
+  <h6><b>   - 01-07-2021 </b></h6>
+  <h6>   - Added a New Panel<h6>
+<h5># 25-06-2021 UPDATE</h5>
+    <h6>   - added loading spinner and font colors</h6>
+    <h6>   - default user only have access to tunnelling (shell access disallowed)</h6>
 
-# update 25-06-2021
-* added loading spinner and font colors
-* default user only have access to tunnelling (shell access disallowed)
 
-
-![logo](https://telegra.ph/file/4e19dd26926234ca32b68.jpg)
+<img height="200px" width="200px" src="https://telegra.ph/file/4e19dd26926234ca32b68.jpg"/>
 
 
 
