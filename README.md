@@ -21,37 +21,30 @@ Rezoth™ - SSH-Script එක Use කරල ඔයාට පහසුවෙන�
 ------------------------------------------
 #### :book: Installation
 
-sudo wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/ssh.sh && sudo chmod +x ssh.sh  && sudo ./ssh.sh
+_sudo wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/ssh.sh && sudo chmod +x ssh.sh  && sudo ./ssh.sh
 
-UserAdd කරද්දි strong password එකක් use කරන්න
+UserAdd කරද්දි strong password එකක් use කරන්න_
 
 ------------------------------------------
 
 #### :book: How To Connect
 
-1)Android User කෙනෙක්නම් Httpinjector | Sockhttp | 
+_1)Android User කෙනෙක්නම් Httpinjector | Sockhttp | 
 
-2)Windows User කෙනෙක්නම් SVI Injector හො Http Proxy injector Software එක Download කරගන්න
+2)Windows User කෙනෙක්නම් SVI Injector හො Http Proxy injector Software එක Download කරගන්න_
 
-
-* Openssh Port = 22
-
+_* Openssh Port = 22
 * Dropbear port   =  80 | 110
-
 * SSL + Dropbear Port  =  443
-
 * SSL + Openssh Port  =  444
-
 * Squid Proxy Port  =  8080 (squid වැඩ කරන්න පෙලෝඩ් එකේ connect request එකක් තියෙන්න ඕනේ) 
-
-* UDPGW Port  =  7300
+* UDPGW Port  =  7300_
 
 
 #### :octocat: Credits
 ----------------------------------------------------
-  1)Team Rezoth - Contributor
-
-  2)@iamtrazy
+_  1)Team Rezoth - Contributor
+  2)@iamtrazy_
 
 ----------------------------------------------------
 
