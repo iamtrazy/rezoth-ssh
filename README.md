@@ -17,18 +17,19 @@
     <h6>   - Default User Only Have Access to Tunnel.. (shell access disallowed)</h6>
    
 <br> 
-Rezoth™ - SSH-Script එක Use කරල ඔයාට පහසුවෙන් ඔයාගෙ server එක ටනලින් වලට හදාගන්න පුලුවන් මෙකෙ ඔක්කොම Ports Auto Open වෙන නිසා ඔයාලට තවත් ලේසී..
+## ~ About Script   
+Using Rezoth SSH-Script you can easily setup your server with ssh & This will make it easier for you as all the ports will be Auto Open ..
 
 ## ~ Manage Script
 
-#### :book: Requrements
+#### ★ Requirements
 
 _* Ubuntu 18.04  Os එක සහිත Vps එකක් [Recommended]_<br>
 _* ඔයාලට පුලුවන් මෙක Ubuntu 20.04 0s Vps එකකට Use කරල Test කරන්නත් _<br>
 _* හැබැයි අපි අනුමත කරන්නෙ Ubuntu 18.04 Os එක_<br>
 
 ------------------------------------------
-#### :book: Installation
+#### ★ Installation
 
 sudo wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/ssh.sh && sudo chmod +x ssh.sh  && sudo ./ssh.sh
 
@@ -36,11 +37,10 @@ UserAdd කරද්දි strong password එකක් use කරන්න_
 
 ------------------------------------------
 
-#### :book: How To Connect
+#### ★ Applications That Can Used to Connect
 
-_1)Android User කෙනෙක්නම් Httpinjector Or Sockhttp Use කරන්න._
-
-_2)Windows User කෙනෙක්නම් SVI Injector හො Http Proxy injector Software එක Download කරගන්න_
+_1) Android -: HTTP Injecotr, Socks HTTP, David HTTP, HTTP Custom _
+_2) Windows -: SVL Injector, HTTP Proxy Injector_  
 
 _- Openssh Port = 22_<br>
 _- Dropbear port   =  80 | 110_<br>
