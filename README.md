@@ -1,6 +1,6 @@
 <h1> ⭕ Rezoth™ - SSH-SCRIPT ⭕<b> </h1>
   
-  <h3>UPDATES & NEW FEATURES</h3>
+  <h3>✅ UPDATES & NEW FEATURES</h3>
 <a href="https://github.com/iamtrazy/rezoth-ssh"><img src="https://i.ibb.co/XSHtYQm/Screenshot-2.png" alt="Screenshot-2" border="0"></a> 
   
 <h5># 01-07-2021 UPDATE ☑️</h5>
