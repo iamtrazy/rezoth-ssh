@@ -11,6 +11,10 @@ ENDCOLOR="\e[0m"
 
 clear
 
+#public ip
+
+pub_ip=$(wget -qO- https://ipecho.net/plain ; echo)
+
 #root check
 
 if ! [ $(id -u) = 0 ]; then
@@ -126,12 +130,33 @@ sed -i 's/ENABLED=0/ENABLED=1/' /etc/default/stunnel4
 
 # Configuring squid
 
-cp /etc/squid/squid.conf /etc/squid/squid.conf.backup
-sed -i 's/http_access deny !Safe_ports/#http_access deny !Safe_ports/'  /etc/squid/squid.conf
-sed -i 's/http_access deny CONNECT !SSL_ports/#http_access deny CONNECT !SSL_ports/' /etc/squid/squid.conf
-sed -i 's/http_access deny all/http_access allow all/' /etc/squid/squid.conf
-sed -i 's/http_port 3128/http_port 8080/' /etc/squid/squid.conf
+mv /etc/squid/squid.conf /etc/squid/squid.conf.backup
+cat << EOF > /etc/squid/squid.conf
+acl url1 dstdomain -i 127.0.0.1
+acl url2 dstdomain -i localhost
+acl url3 dstdomain -i $pub_ip
+acl url4 dstdomain -i /REZOTHSSSH?
+acl payload url_regex -i "/etc/squid/payload.txt"
 
+http_access allow url1
+http_access allow url2
+http_access allow url3
+http_access allow url4
+http_access allow payload
+http_access deny all
+
+http_port 8080
+visible_hostname REZOTHSSSH
+via off
+forwarded_for off
+pipeline_prefetch off
+EOF
+cat << EOF > /etc/squid/payload.txt
+.whatsapp.net/
+.facebook.net/
+.twitter.com/
+.speedtest.net/
+EOF
 }
 fun_udpgw()
 {
