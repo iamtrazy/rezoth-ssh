@@ -1,6 +1,8 @@
 <center><h1>𝐑𝐞𝐳𝐨𝐭𝐡 𝐒𝐒𝐇 𝐒𝐜𝐫𝐢𝐩𝐭 𝟐.𝟎<b> </h1></center>
 
- [![GitHub forks](https://img.shields.io/github/forks/iamtrazy/rezoth-ssh/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/network/)  [![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/iamtrazy/rezoth-ssh/StrapDown.js/stargazers/)
+[![Stars](https://img.shields.io/github/stars/iamtrazy/rezoth-ssh?style=flat&color=green)](https://github.com/iamtrazy/rezoth-ssh)
+[![Forks](https://img.shields.io/github/forks/iamtrazy/rezoth-ssh?style=flat&color=green)](https://github.com/iamtrazy/rezoth-ssh/fork)
+
 
 
   
