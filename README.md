@@ -15,28 +15,21 @@
 </p>
 </details>  
  
-<details>
-<summary>01-07-2021 UPDATE ☑️</summary>
-<p>
+
+01-07-2021 UPDATE ☑️
+
 ```
   - Added a New Panel & Interface
  
  ```
-</p>
-</details> 
- 
-<details>
-<summary>25-06-2021 UPDATE ☑️</summary>
-<p>
+
+ >25-06-2021 UPDATE ☑️
+
 ```
   - Added Loading Spinner and Added Font Colors
   - Default User Only Have Access to Tunnel.. (shell access disallowed)
- 
- ```
- </p>
-</details>    
- 
-<br>    
+ ``` 
+    
     
 Rezoth™ - SSH-Script එක Use කරල ඔයාට පහසුවෙන් ඔයාගෙ server එක ටනලින් වලට හදාගන්න පුලුවන් මෙකෙ ඔක්කොම Ports Auto Open වෙන නිසා ඔයාලට තවත් ලේසී..
 
