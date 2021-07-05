@@ -21,9 +21,9 @@ _* හැබැයි අපි අනුමත කරන්නෙ Ubuntu 18.04 
 ------------------------------------------
 #### :book: Installation
 
-_sudo wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/ssh.sh && sudo chmod +x ssh.sh  && sudo ./ssh.sh
+sudo wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/ssh.sh && sudo chmod +x ssh.sh  && sudo ./ssh.sh
 
-_UserAdd කරද්දි strong password එකක් use කරන්න_
+UserAdd කරද්දි strong password එකක් use කරන්න_
 
 ------------------------------------------
 
