@@ -4,9 +4,10 @@
 
   <h3>✅ UPDATES & NEW FEATURES</h3>
 <a href="https://github.com/iamtrazy/rezoth-ssh"><img src="https://i.ibb.co/XSHtYQm/Screenshot-2.png" alt="Screenshot-2" border="0"></a> 
-  
+<h5># 01-07-2021 UPDATE ☑️</h5> 
+  <h6>   - Added a Loading Effects<h6> 
+  <h6>   - Change Some Things In Main Menu<h6>
 <h5># 01-07-2021 UPDATE ☑️</h5>
-  <h6><b>   - 01-07-2021 </b></h6>
   <h6>   - Added a New Panel<h6>
 <h5># 25-06-2021 UPDATE ☑️</h5>
     <h6>   - Added Loading Spinner and Added Font Colors</h6>
