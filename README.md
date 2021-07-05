@@ -1,19 +1,23 @@
 <center><h1>𝐑𝐞𝐳𝐨𝐭𝐡 𝐒𝐒𝐇 𝐒𝐜𝐫𝐢𝐩𝐭 𝟐.𝟎<b> </h1></center>
 
 [![Stars](https://img.shields.io/github/stars/iamtrazy/rezoth-ssh?style=flat&color=blue)](https://github.com/iamtrazy/rezoth-ssh) [![Forks](https://img.shields.io/github/forks/iamtrazy/rezoth-ssh?style=flat&color=blue)](https://github.com/iamtrazy/rezoth-ssh/fork) [![Size](https://img.shields.io/github/repo-size/imatrazy/rezoth-ssh?style=flat&color=green)](https://github.com/iamtrazy/rezoth-ssh) [![Build Status](https://travis-ci.org/iamtrazy/rezoth-ssh.svg?branch=master)](https://github.com/iamtrazy/rezoth-ssh) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/iamtrazy/rezoth-ssh/graphs/commit-activity) [![Contributors](https://img.shields.io/github/contributors/iamtrazy/rezoth-ssh?style=flat&color=red)](https://github.com/iamtrazy/rezoth-ssh/graphs/contributors)
-
-<details>  
+ 
   <h3>✅ UPDATES & NEW FEATURES</h3>
 <a href="https://github.com/iamtrazy/rezoth-ssh"><img src="https://i.ibb.co/XSHtYQm/Screenshot-2.png" alt="Screenshot-2" border="0"></a> 
+
+  <details>   
 <summary><h5># 01-07-2021 UPDATE ☑️</h5></summary>
   <h6>   - Added a Loading Effects<h6> 
   <h6>   - Change Some Things In Main Menu<h6>
+</details> 
+    
 <summary><h5># 01-07-2021 UPDATE ☑️</h5></summary>
   <h6>   - Added a New Panel<h6>
+    
 <summary><h5># 25-06-2021 UPDATE ☑️</h5></summary>
     <h6>   - Added Loading Spinner and Added Font Colors</h6>
     <h6>   - Default User Only Have Access to Tunnel.. (shell access disallowed)</h6>
-    </details>    
+   
 <br>    
     
 Rezoth™ - SSH-Script එක Use කරල ඔයාට පහසුවෙන් ඔයාගෙ server එක ටනලින් වලට හදාගන්න පුලුවන් මෙකෙ ඔක්කොම Ports Auto Open වෙන නිසා ඔයාලට තවත් ලේසී..
