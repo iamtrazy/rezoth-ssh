@@ -8,23 +8,32 @@
  <details>
 <summary># 05-07-2021 UPDATE ☑️</summary>
 <p>
-
 ```
-  <h6>   - Added a Loading Effects<h6> 
-  <h6>   - Change Some Things In Main Menu<h6>
+  - Added a Loading Effects
+  - Change Some Things In Main Menu
  ```
-
 </p>
 </details>  
  
-    
-<h5># 01-07-2021 UPDATE ☑️</h5>
-  <h6>   - Added a New Panel<h6>
-    
-<h5># 25-06-2021 UPDATE ☑️</h5>
-    <h6>   - Added Loading Spinner and Added Font Colors</h6>
-    <h6>   - Default User Only Have Access to Tunnel.. (shell access disallowed)</h6>
-   
+ 
+  <details>
+<summary># 01-07-2021 UPDATE ☑️</summary>
+<p>
+```
+  - Added a New Panel & Interface
+ ```
+</p>
+</details> 
+ 
+  <details>
+<summary># 25-06-2021 UPDATE ☑️</summary>
+<p>
+```
+  - Added Loading Spinner and Added Font Colors
+  - Default User Only Have Access to Tunnel.. (shell access disallowed)
+ ```
+</p>
+</details>    
 <br>    
     
 Rezoth™ - SSH-Script එක Use කරල ඔයාට පහසුවෙන් ඔයාගෙ server එක ටනලින් වලට හදාගන්න පුලුවන් මෙකෙ ඔක්කොම Ports Auto Open වෙන නිසා ඔයාලට තවත් ලේසී..
