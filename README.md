@@ -2,7 +2,8 @@
 
 [![Stars](https://img.shields.io/github/stars/iamtrazy/rezoth-ssh?style=flat&color=green)](https://github.com/iamtrazy/rezoth-ssh)
 [![Forks](https://img.shields.io/github/forks/iamtrazy/rezoth-ssh?style=flat&color=green)](https://github.com/iamtrazy/rezoth-ssh/fork)
-
+[![Build Status](https://travis-ci.org/iamtrazy/rezoth-ssh.svg?branch=master)](https://github.com/iamtrazy/rezoth-ssh)
+[![Forks](https://img.shields.io/github/forks/iamtrazy/rezoth-ssh?style=flat-square&color=red)](https://github.com/iamtrazy/rezoth-ssh)
 
 
   
