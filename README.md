@@ -1,7 +1,7 @@
 <center><h1>𝐑𝐞𝐳𝐨𝐭𝐡 𝐒𝐒𝐇 𝐒𝐜𝐫𝐢𝐩𝐭 𝟐.𝟎<b> </h1></center>
-  <a herf="https://github.com/iamtrazy/rezoth-ssh"><img src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg" alt="made-with-bash"></a>
-  <a herf="https://github.com/iamtrazy/rezoth-ssh"><img src="https://img.shields.io/github/forks/iamtrazy/rezoth-ssh/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000" alt="Forks"></a>
-  <a herf="https://github.com/iamtrazy/rezoth-ssh"><img src="https://img.shields.io/github/stars/iamtrazy/rezoth-ssh/StrapDown.js.svg?style=social&label=Star&maxAge=2592000" alt="stars"></a>
+
+ [![GitHub forks](https://img.shields.io/github/forks/iamtrazy/rezoth-ssh/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/network/)  [![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/iamtrazy/rezoth-ssh/StrapDown.js/stargazers/)
+
   
   
   
