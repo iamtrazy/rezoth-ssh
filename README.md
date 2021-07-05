@@ -8,10 +8,10 @@
  <details>
 <summary>05-07-2021 UPDATE ☑️</summary>
 <p>
- ```
-  - Added a Loading Effects
-  - Change Some Things In Main Menu
-```
+
+  ``` - Added a Loading Effects
+  - Change Some Things In Main Menu ```
+
 </p>
 </details>  
  
