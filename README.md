@@ -2,8 +2,12 @@
 
 [![Stars](https://img.shields.io/github/stars/iamtrazy/rezoth-ssh?style=flat&color=green)](https://github.com/iamtrazy/rezoth-ssh)
 [![Forks](https://img.shields.io/github/forks/iamtrazy/rezoth-ssh?style=flat&color=green)](https://github.com/iamtrazy/rezoth-ssh/fork)
-[![Build Status](https://travis-ci.org/iamtrazy/rezoth-ssh.svg?branch=master)](https://github.com/iamtrazy/rezoth-ssh)
-[![Forks](https://img.shields.io/github/forks/iamtrazy/rezoth-ssh?style=flat-square&color=red)](https://github.com/iamtrazy/rezoth-ssh)
+[![Size](https://img.shields.io/github/repo-size/imatrazy/rezoth-ssh?style=flat&color=green)](https://github.com/iamtrazy/rezoth-ssh) 
+[![Build Status](https://travis-ci.org/iamtrazy/rezoth-ssh.svg?branch=master)](https://github.com/iamtrazy/rezoth-ssh)  
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/iamtrazy/rezoth-ssh/graphs/commit-activity)
+[![Contributors](https://img.shields.io/github/contributors/iamtrazy/rezoth-ssh?style=flat&color=red)](https://github.com/iamtrazy/rezoth-ssh/graphs/contributors)
+
+
 
 
   
