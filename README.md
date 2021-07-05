@@ -1,4 +1,9 @@
 <center><h1>𝐑𝐞𝐳𝐨𝐭𝐡 𝐒𝐒𝐇 𝐒𝐜𝐫𝐢𝐩𝐭 𝟐.𝟎<b> </h1></center>
+  <a herf="https://github.com/iamtrazy/rezoth-ssh"><img src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg" alt="made-with-bash"></a>
+  <a herf="https://github.com/iamtrazy/rezoth-ssh"><img src="https://img.shields.io/github/downloads/ iamtrazy/rezoth-ssh/StrapDown.js/total.svg" alt="Github all releases"></a>
+  <a herf="https://github.com/iamtrazy/rezoth-ssh"><img src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg" alt="made-with-bash"></a>
+  
+  
   
   <h3>✅ UPDATES & NEW FEATURES</h3>
 <a href="https://github.com/iamtrazy/rezoth-ssh"><img src="https://i.ibb.co/XSHtYQm/Screenshot-2.png" alt="Screenshot-2" border="0"></a> 
