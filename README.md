@@ -27,7 +27,7 @@
 </p>
 </details> 
  
- <details>
+<details>
 <summary>25-06-2021 UPDATE ☑️</summary>
 <p>
 ```
