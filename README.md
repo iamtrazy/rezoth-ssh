@@ -46,11 +46,9 @@ _- UDPGW Port  =  7300_<br>
 
 <a href="https://github.com/iamtrazy/rezoth-ssh"><img src="https://i.ibb.co/qpvCqQR/Screenshot-4.png" alt="Screenshot-1" border="0"></a>
     
-#### :octocat: Credits
-----------------------------------------------------
- _1)Team Rezoth - Contributor_<br>
- _2)@iamtrazy_
+#### ★ Credits ★
+- <a href="https://t.me/iamtrazy">✫ iamtrazy
+- <a href="https://t.me/HansanaDasanayaka">✫ HansanaDasanayaka
+- <a href="https://t.me/Rezoth">✫ All Other Team Members     
 
-----------------------------------------------------
 
-~ https://t.me/rezoth_tm ~
