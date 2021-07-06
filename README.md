@@ -5,20 +5,20 @@
 ### ✅ UPDATES & NEW FEATURES
 <a href="https://github.com/iamtrazy/rezoth-ssh"><img src="https://i.ibb.co/XSHtYQm/Screenshot-2.png" alt="Screenshot-2" border="0"></a> 
  
-###### 05-07-2021 UPDATE ☑️
+#### 05-07-2021 UPDATE ☑️
 ```
  - Added a New Colorful Parts Into Panel 
  - Added New Options (Beta)
 ```
  
-###### 01-07-2021 UPDATE ☑️
+#### 01-07-2021 UPDATE ☑️
  ```
  - Added a New Panel
  - Added New Colors
  - Added New Features 
  ```
 
-###### 25-06-2021 UPDATE ☑️
+#### 25-06-2021 UPDATE ☑️
  ```
  - Added Loading Spinner and Added Font Colors
  - Default User Only Have Access to Tunnel.. (shell access disallowed) 
