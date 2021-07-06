@@ -39,7 +39,7 @@ _* Ubuntu 18.04 VPS [Recommended]. Also You Can Use Another Type Of VPS_<br>
 
 ``` sudo wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/ssh.sh && sudo chmod +x ssh.sh  && sudo ./ssh.sh ```
 
-_ ‼️Attention -: Please Use A Strong Password As Default Password._
+ ‼️Attention -: Please Use A Strong Password As Default Password.
 
 ### ★ Applications That Can Used to Connect
 
