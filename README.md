@@ -6,8 +6,8 @@
 <a href="https://github.com/iamtrazy/rezoth-ssh"><img src="https://i.ibb.co/XSHtYQm/Screenshot-2.png" alt="Screenshot-2" border="0"></a> 
  
  <h5># 05-07-2021 UPDATE ☑️</h5>
-  <h6><b>   - 01-07-2021 </b></h6>
-  <h6>   - Added a New Panel<h6>
+  <h6><b>   ``` - 01-07-2021 </b></h6>
+  <h6>   - Added a New Panel ```<h6>
  
  <h5># 01-07-2021 UPDATE ☑️</h5>
   <h6><b>   - 01-07-2021 </b></h6>
@@ -16,7 +16,7 @@
     <h6>   - Added Loading Spinner and Added Font Colors</h6>
     <h6>   - Default User Only Have Access to Tunnel.. (shell access disallowed)</h6>
    
-<br> 
+   
 #### ★ About Script   
 Using Rezoth SSH-Script you can easily setup your server with ssh & This will make it easier for you as all the ports will be Auto Open ..
 
