@@ -54,10 +54,12 @@ _- Squid Proxy Port  =  8080 (squid වැඩ කරන්න පෙලෝඩ්
 _- UDPGW Port  =  7300_<br>
 
 <a href="https://github.com/iamtrazy/rezoth-ssh"><img src="https://i.ibb.co/qpvCqQR/Screenshot-4.png" alt="Screenshot-1" border="0"></a>
-    
-### ★ Credits ~
-- <a href="https://t.me/iamtrazy">✫ iamtrazy
-- <a href="https://t.me/HansanaDasanayaka">✫ HansanaDasanayaka
-- <a href="https://t.me/Rezoth">✫ All Other Team Members     
-
+        
+## Code Owners 📦
+* [iamtrazy](https://github.com/imatrazy)
+* [HansanaDasanayaka](https://github.com/HansanaDasanayaka)
+ 
+ ## Support 👊
+<a href="https://t.me/Rezoth"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/rezoth_tm"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
