@@ -44,7 +44,7 @@ _ ‼️Attention -: Please Use A Strong Password As Default Password._
 ### ★ Applications That Can Used to Connect
 
 _1) Android -: HTTP Injecotr, Socks HTTP, David HTTP, HTTP Custom_<br> 
-_2) Windows -: SVL Injector, HTTP Proxy Injector
+2) Windows -: SVL Injector, HTTP Proxy Injector
 
 ### ★ Default Ports & Doors
 _- Openssh Port = 22_<br>
