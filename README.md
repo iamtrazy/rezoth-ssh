@@ -43,8 +43,8 @@ _ ‼️Attention -: Please Use A Strong Password As Default Password._
 
 ### ★ Applications That Can Used to Connect
 
-_1) Android -: HTTP Injecotr, Socks HTTP, David HTTP, HTTP Custom _
-_2) Windows -: SVL Injector, HTTP Proxy Injector_  
+_1) Android -: HTTP Injecotr, Socks HTTP, David HTTP, HTTP Custom
+_2) Windows -: SVL Injector, HTTP Proxy Injector
 
 ### ★ Default Ports & Doors
 _- Openssh Port = 22_<br>
@@ -57,8 +57,6 @@ _- UDPGW Port  =  7300_<br>
 <a href="https://github.com/iamtrazy/rezoth-ssh"><img src="https://i.ibb.co/qpvCqQR/Screenshot-4.png" alt="Screenshot-1" border="0"></a>
 # Hosting 🖥
  <a href="https://digitalocean.com"><img src="https://img.shields.io/badge/Digital_Ocean-0080FF?style=for-the-badge&logo=DigitalOcean&logoColor=white"></a> <a href="https://azure.microsoft.com"><img src="https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white"></a>
-<a href="https://aws.amazon.com/"><img src=https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"></a>
-
 
  
  
