@@ -17,31 +17,27 @@
     <h6>   - Default User Only Have Access to Tunnel.. (shell access disallowed)</h6>
    
 <br> 
-## ~ About Script   
+#### ★ About Script   
 Using Rezoth SSH-Script you can easily setup your server with ssh & This will make it easier for you as all the ports will be Auto Open ..
 
-## ~ Manage Script
+#### ★ Manage Script
 
 #### ★ Requirements
 
-_* Ubuntu 18.04  Os එක සහිත Vps එකක් [Recommended]_<br>
-_* ඔයාලට පුලුවන් මෙක Ubuntu 20.04 0s Vps එකකට Use කරල Test කරන්නත් _<br>
-_* හැබැයි අපි අනුමත කරන්නෙ Ubuntu 18.04 Os එක_<br>
+_* Ubuntu 18.04 VPS [Recommended]. Also You Can Use Another Type Of VPS_<br>
 
-------------------------------------------
 #### ★ Installation
 
-sudo wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/ssh.sh && sudo chmod +x ssh.sh  && sudo ./ssh.sh
+``` sudo wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/ssh.sh && sudo chmod +x ssh.sh  && sudo ./ssh.sh ```
 
-UserAdd කරද්දි strong password එකක් use කරන්න_
-
-------------------------------------------
+_ ‼️Attention -: Please Use A Strong Password As Default Password._
 
 #### ★ Applications That Can Used to Connect
 
 _1) Android -: HTTP Injecotr, Socks HTTP, David HTTP, HTTP Custom _
 _2) Windows -: SVL Injector, HTTP Proxy Injector_  
 
+#### ★ Default Ports & Doors
 _- Openssh Port = 22_<br>
 _- Dropbear port   =  80 | 110_<br>
 _- SSL + Dropbear Port  =  443_<br>
@@ -51,7 +47,7 @@ _- UDPGW Port  =  7300_<br>
 
 <a href="https://github.com/iamtrazy/rezoth-ssh"><img src="https://i.ibb.co/qpvCqQR/Screenshot-4.png" alt="Screenshot-1" border="0"></a>
     
-#### ★ Credits ★
+#### ★ Credits ~
 - <a href="https://t.me/iamtrazy">✫ iamtrazy
 - <a href="https://t.me/HansanaDasanayaka">✫ HansanaDasanayaka
 - <a href="https://t.me/Rezoth">✫ All Other Team Members     
