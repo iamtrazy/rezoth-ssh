@@ -2,8 +2,7 @@
 
 [![Stars](https://img.shields.io/github/stars/iamtrazy/rezoth-ssh?style=flat&color=blue)](https://github.com/iamtrazy/rezoth-ssh) [![Forks](https://img.shields.io/github/forks/iamtrazy/rezoth-ssh?style=flat&color=blue)](https://github.com/iamtrazy/rezoth-ssh/fork) [![Size](https://img.shields.io/github/repo-size/imatrazy/rezoth-ssh?style=flat&color=green)](https://github.com/iamtrazy/rezoth-ssh) [![Build Status](https://travis-ci.org/iamtrazy/rezoth-ssh.svg?branch=master)](https://github.com/iamtrazy/rezoth-ssh) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/iamtrazy/rezoth-ssh/graphs/commit-activity) [![Contributors](https://img.shields.io/github/contributors/iamtrazy/rezoth-ssh?style=flat&color=red)](https://github.com/iamtrazy/rezoth-ssh/graphs/contributors)
 [![Hosting](https://img.shields.io/badge/Hosting-cloud.linode.com-darkgreen)](https://cloud.linode.com) 
- 
- <br />
+
 ### ✅ UPDATES & NEW FEATURES
 <a href="https://github.com/iamtrazy/rezoth-ssh"><img src="https://i.ibb.co/XSHtYQm/Screenshot-2.png" alt="Screenshot-2" border="0"></a> 
  
