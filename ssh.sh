@@ -192,7 +192,7 @@ wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/DelUser.sh
 wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/ListUsers.sh
 wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/etc/RemoveScript.sh
 wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
-wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/menu
+wget https://raw.githubusercontent.com/MalinrRuwan/rezoth-ssh/main/menu
 mv ChangeUser.sh /etc/rezoth-ssh/ChangeUser.sh
 mv ChangePorts.sh /etc/rezoth-ssh/ChangePorts.sh
 mv UserManager.sh /etc/rezoth-ssh/UserManager.sh
