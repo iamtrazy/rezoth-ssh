@@ -43,8 +43,9 @@ echo -e "  5)Change Ports"
 echo -e "  6)Edit SSH Banner"
 echo -e "  7)Server Information"
 echo -e "  8)Server Speedtest"
-echo -e "  9)Remove Script"
-echo -e "  10)Exit"
+echo -e "  9)Server Data usage"
+echo -e "  10)Remove Script"
+echo -e "  11)Exit"
 
 echo -ne "${GREEN}\nSelect Operation : ${ENDCOLOR}" ;read n
 
@@ -57,7 +58,8 @@ case $n in
   6) /etc/rezoth-ssh/Banner.sh;;
   7) clear && screenfetch -p || echo -e "${RED}Screenfetch not installed. please install${ENDCOLOR}"; echo -e "\nPress Enter to return back to the menu";read;menu;;  
   8) clear && python3 /etc/rezoth-ssh/speedtest-cli || echo -e "${RED}Python3 or speedtest-cli not installed. please install${ENDCOLOR}"; echo -e "\nPress Enter to return back to the menu";read;menu;;
-  9) /etc/rezoth-ssh/RemoveScript.sh;;
-  10) clear;exit;;
+  9) clear && nload eth0 || echo -e "${RED}nload not installed. please install${ENDCOLOR}";echo -e "\nPress Enter to return back to the menu";read;menu;;
+  10) /etc/rezoth-ssh/RemoveScript.sh;;
+  11) clear;exit;;
   *) echo -e "${RED}\nInvalid Option. Press Enter to return back to the menu${ENDCOLOR}";read && menu;;
 esac
