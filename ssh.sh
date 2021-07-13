@@ -43,7 +43,7 @@ pre_req()
 		
 	apt update -y && apt upgrade -y
 
-        apt-get install -y dropbear && apt-get install -y stunnel4 && apt-get install -y squid && apt-get install -y cmake && apt-get install -y python3 && apt-get install -y screenfetch && apt-get install -y openssl apt-get install -y nload
+        apt-get install -y dropbear && apt-get install -y stunnel4 && apt-get install -y squid && apt-get install -y cmake && apt-get install -y python3 && apt-get install -y screenfetch && apt-get install -y openssl && apt-get install -y nload
         ufw allow 443/tcp
 	ufw allow 444/tcp
         ufw allow 22/tcp
