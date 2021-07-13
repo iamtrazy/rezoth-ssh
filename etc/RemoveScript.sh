@@ -27,6 +27,7 @@ remove_script()
 apt-get remove --purge -y dropbear
 apt-get remove --purge -y stunnel4
 apt-get remove --purge -y squid
+apt-get remove --purge -y nload
 sed -i 's/Banner \/etc\/banner/#Banner none/' /etc/ssh/sshd_config
 rm -f /etc/banner
 rm -f /etc/default/dropbear
