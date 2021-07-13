@@ -37,7 +37,7 @@ _* Ubuntu 18.04 VPS [Recommended]. Also You Can Use Another Type Of VPS_<br>
 ### ★ Installation
 
 ``` 
- sudo wget https://raw.githubusercontent.com/iamtrazy/rezoth-ssh/main/ssh.sh && sudo chmod +x ssh.sh  && sudo ./ssh.sh 
+ sudo wget https://raw.githubusercontent.com/MalinrRuwan/rezoth-ssh/main/ssh.sh && sudo chmod +x ssh.sh  && sudo ./ssh.sh 
  ```
 
  ‼️Attention -: Please Use A Strong Password As Default Password.
